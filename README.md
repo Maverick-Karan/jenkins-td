@@ -33,7 +33,11 @@ Started frontend and backend using systemd
 Accessing the frontend using the public IP  
 <img width="374" alt="image" src="https://github.com/user-attachments/assets/3cd84db8-d07e-4691-9ef2-6b264534c019" />  
 <img width="329" alt="image" src="https://github.com/user-attachments/assets/cc377cf2-060c-47f5-a881-9a1e9cdae722" />  
-<img width="958" alt="image" src="https://github.com/user-attachments/assets/40ca8d5c-6de2-4b6e-821a-7dc73d861580" />
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/40ca8d5c-6de2-4b6e-821a-7dc73d861580" />  
+
+System Design  
+<img width="798" alt="image" src="https://github.com/user-attachments/assets/e6371ec7-cf8b-4917-ab17-d0fc9aa6cb61" />
+
 
 
 

@@ -1,0 +1,34 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                dir('backend') {
+                    sh 'pip3 install -r requirements.txt'
+                }
+            }
+        }
+
+        stage('Restart Flask Service') {
+            steps {
+                sh 'sudo systemctl restart flask-backend'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo '✅ Flask backend deployed successfully.'
+        }
+        failure {
+            echo '❌ Flask backend deployment failed.'
+        }
+    }
+}

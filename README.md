@@ -45,6 +45,12 @@ TASK 2: Implement CI/CD Pipeline Using Jenkins
   Built 2 separate pipelines (backend and frontend)
 <img width="1507" alt="image" src="https://github.com/user-attachments/assets/d0ce1c01-23c1-43a5-869b-38625733fd2d" />  
 
+  Pipeline setup  (Using Github - main branch, GitHub hook trigger for GITScm polling and Jenkinsfile for separate pipelines)
+<img width="1499" alt="image" src="https://github.com/user-attachments/assets/1231e0c1-4e42-44ec-8bea-9ddea91ecc5d" />  
+<img width="1371" alt="image" src="https://github.com/user-attachments/assets/abefff30-1dd2-454a-beaa-88a0b0dc3d74" />
+
+
+
   Configured WebHook in github  
   <img width="1092" alt="image" src="https://github.com/user-attachments/assets/c34a9f31-ea53-4e9b-9130-6714388e1350" />  
 
@@ -77,6 +83,16 @@ Pipeline logs
   <img width="355" alt="image" src="https://github.com/user-attachments/assets/70d04a06-9bc6-4def-a3e2-9c54159731a5" />
   <img width="417" alt="image" src="https://github.com/user-attachments/assets/6b3eb4b4-a4ae-4966-aab3-6c1c9ab0ce38" />  
   <img width="1301" alt="image" src="https://github.com/user-attachments/assets/fd39af54-1a08-451a-9fc8-1b307ff7e2f3" />
+
+
+description:
+Jenkins is setup with mongoDB secrets in global configuration.  
+2 separate pipelines are built (frontend and backend).  
+Both pipelines are configured with GitHub URL, GitHub hook trigger for GITScm polling, respective Jenkinsfile path.    
+Once the user pushes a code to GitHub, the webhook triggers both pipelines in Jenkins via API.  
+New code is fetched and deployed on the EC2.  
+Then both frontend and backend services are restarted.
+
 
   
 

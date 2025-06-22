@@ -1,10 +1,34 @@
 pipeline {
     agent any
 
+    environment {
+        // These are the runtime env variables Flask will use
+        MONGO_URI = ''
+        MONGO_DB_NAME = ''
+        MONGO_COLLECTION_NAME = ''
+    }
+
     stages {
         stage('Checkout') {
             steps {
                 checkout scm
+            }
+        }
+
+        stage('Inject Environment Variables') {
+            steps {
+                withCredentials([
+                    string(credentialsId: 'MONGO_URI', variable: 'MONGO_URI'),
+                    string(credentialsId: 'MONGO_DB_NAME', variable: 'MONGO_DB_NAME'),
+                    string(credentialsId: 'MONGO_COLLECTION_NAME', variable: 'MONGO_COLLECTION_NAME')
+                ]) {
+                    sh '''
+                        echo "Exporting environment variables..."
+                        export MONGO_URI=$MONGO_URI
+                        export MONGO_DB_NAME=$MONGO_DB_NAME
+                        export MONGO_COLLECTION_NAME=$MONGO_COLLECTION_NAME
+                    '''
+                }
             }
         }
 

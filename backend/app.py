@@ -4,8 +4,9 @@ from flask_cors import CORS
 import os
 from dotenv import load_dotenv
 
-# Load variables from .env
-load_dotenv()
+# Load variables from .env - conditional
+if os.path.exists('.env'):
+    load_dotenv()
 
 # Get environment variables
 mongo_uri = os.getenv('MONGO_URI')

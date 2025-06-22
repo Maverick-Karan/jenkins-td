@@ -45,7 +45,11 @@ TASK 2: Implement CI/CD Pipeline Using Jenkins
   Built 2 separate pipelines (backend and frontend)
 <img width="1507" alt="image" src="https://github.com/user-attachments/assets/d0ce1c01-23c1-43a5-869b-38625733fd2d" />  
 
-  successful build with configured Github Hook
+  Configured WebHook in github  
+  <img width="1092" alt="image" src="https://github.com/user-attachments/assets/c34a9f31-ea53-4e9b-9130-6714388e1350" />  
+
+
+  Successful build with configured Github Hook
 <img width="713" alt="image" src="https://github.com/user-attachments/assets/383b97f9-e1f9-486c-8589-de82fdc85658" />  
 <img width="686" alt="image" src="https://github.com/user-attachments/assets/9b07b34a-abc4-457e-8ec9-d1781ce30506" />
 

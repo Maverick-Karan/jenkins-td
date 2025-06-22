@@ -58,6 +58,18 @@ TASK 2: Implement CI/CD Pipeline Using Jenkins
 Used Jenkins Secrets to manage MongoDB credentials  
 <img width="1381" alt="image" src="https://github.com/user-attachments/assets/c61ee265-1ea1-4f82-8d86-fbe60080271c" />  
 
+  
+Pipeline logs  
+<img width="1502" alt="image" src="https://github.com/user-attachments/assets/5e686d89-d078-4b71-8be4-277553317fb0" />  
+<img width="1491" alt="image" src="https://github.com/user-attachments/assets/dabf4c15-fc9a-43a9-9805-3ab8c6629be3" />  
+<img width="1495" alt="image" src="https://github.com/user-attachments/assets/651edf4b-d3ea-4624-afb0-6c66555fd97c" />  
+<img width="1499" alt="image" src="https://github.com/user-attachments/assets/360e5bda-ab39-4bf9-a492-bfdca229f7c0" />  
+<img width="1494" alt="image" src="https://github.com/user-attachments/assets/8dec55ac-a76d-4066-a479-0f76a8cfbac6" />
+<img width="1498" alt="image" src="https://github.com/user-attachments/assets/3d6408f2-75c3-49f2-8270-d0140e66f040" />  
+<img width="1493" alt="image" src="https://github.com/user-attachments/assets/bbacf6cf-ebe5-428c-a4b0-da837d301d24" />
+<img width="1492" alt="image" src="https://github.com/user-attachments/assets/54939b9b-9188-4a80-ba35-a04de1f62385" />
+
+
   Verify that both services are working in EC2 after the pipeline is successful  
   <img width="1461" alt="image" src="https://github.com/user-attachments/assets/78067321-7216-4ea5-8974-e6b761d0dca0" />  
 

@@ -8,7 +8,7 @@ const app = express();
 const PORT = 3000;
 
 // URL of the Flask backend service
-const FLASK_BACKEND_URL = process.env.BACKEND_URL || 'http://backend:5000/submit';
+const FLASK_BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:5000/submit';
 
 // Middleware to parse form data
 app.use(bodyParser.urlencoded({ extended: false }));

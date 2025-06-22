@@ -38,6 +38,33 @@ Accessing the frontend using the public IP
 System Design  
 <img width="798" alt="image" src="https://github.com/user-attachments/assets/e6371ec7-cf8b-4917-ab17-d0fc9aa6cb61" />
 
+======================================================================   
+  
+TASK 2: Implement CI/CD Pipeline Using Jenkins  
+
+  Built 2 separate pipelines (backend and frontend)
+<img width="1507" alt="image" src="https://github.com/user-attachments/assets/d0ce1c01-23c1-43a5-869b-38625733fd2d" />  
+
+  successful build with configured Github Hook
+<img width="713" alt="image" src="https://github.com/user-attachments/assets/383b97f9-e1f9-486c-8589-de82fdc85658" />  
+<img width="686" alt="image" src="https://github.com/user-attachments/assets/9b07b34a-abc4-457e-8ec9-d1781ce30506" />
+
+
+
+Used Jenkins Secrets to manage MongoDB credentials  
+<img width="1381" alt="image" src="https://github.com/user-attachments/assets/c61ee265-1ea1-4f82-8d86-fbe60080271c" />  
+
+  Verify that both services are working in EC2 after the pipeline is successful  
+  <img width="1461" alt="image" src="https://github.com/user-attachments/assets/78067321-7216-4ea5-8974-e6b761d0dca0" />  
+
+  Test Application  
+  <img width="355" alt="image" src="https://github.com/user-attachments/assets/70d04a06-9bc6-4def-a3e2-9c54159731a5" />
+  <img width="417" alt="image" src="https://github.com/user-attachments/assets/6b3eb4b4-a4ae-4966-aab3-6c1c9ab0ce38" />  
+  <img width="1301" alt="image" src="https://github.com/user-attachments/assets/fd39af54-1a08-451a-9fc8-1b307ff7e2f3" />
+
+  
+
+
 
 
 
